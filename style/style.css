@@ -1,0 +1,78 @@
+/* Estilizar o botão */
+.navbar-toggler i {
+  font-size: 1.6rem;
+}
+
+.nav-link.active {
+  box-shadow: 0 1px 0 #fff;
+}
+
+.custom-toggler {
+  border: none;
+  background-color: transparent;
+  padding: 8px;
+}
+
+.custom-toggler:focus {
+  box-shadow: none;
+}
+
+.carousel-inner {
+  height: 400px;
+  overflow: hidden;
+  background-color: #000;
+}
+
+@media (min-width: 720px) {
+  .carousel-inner {
+    height: 500px;
+  }
+}
+
+@media (min-width: 1220px) {
+  .carousel-inner {
+    height: 600px;
+  }
+}
+
+.carousel-inner img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+  min-height: 400px;
+}
+
+.carousel-caption * {
+  color: #fff;
+}
+
+.nav-tabs * {
+  color: #fff;
+}
+
+.nav-tabs *:hover {
+  color: #fff;
+}
+
+.card * {
+  color: #000;
+}
+
+.card-img-top {
+  height: 240px;
+  object-fit: cover;
+}
+
+.footer * , .header *{
+  color: #fff;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.social-icons a:hover {
+  color: #ff9900;
+}
